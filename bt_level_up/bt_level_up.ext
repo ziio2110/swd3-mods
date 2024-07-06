@@ -1,0 +1,30 @@
+﻿MODName BTLevelUp
+MODAuthor RooMcar
+MODDate 2024,7,1
+;
+;
+MODVersion 1,0
+;
+;
+MODinfo 修改升级数据 Make this game much easyer but boring.%Q
+;
+;
+MODGameVersion 4,0-5
+;
+; 0 记录在save  1 不记录  2 save要求mod才能用
+MODbundleSave 0
+;
+; 0=非系统用  1=系统用
+MODsystemMod 0
+;
+; Datas TYPE, LangID, FileName, Comment
+; TYPE:0=txt 1=ext 2=script 3=png 4=font >100=壓縮
+; LangID 0=default 1=chs,
+;
+DAT 0,1,name.txt,改名
+DAT 2,0,GameData_NewGame.lua,修改新游戏初始数据
+DAT 2,0,OnEvent.lua,修改新游戏初始数据
+DAT 2,0,Scene.lua,简化新游戏初始剧情
+DAT 2,0,GameData_PlayerLevel.lua,修改升级数据
+DAT 0,1,ItemString.txt,改名
+
