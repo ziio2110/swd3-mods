@@ -1,16 +1,6 @@
 
 # swd3-mods
 
-### bt_level_up
-
-将所有文件（`bt_level_up` 文件夹中的内容）直接放在 `C:\Program Files (x86)\Steam\steamapps\common\SWD3\Tools` 后，在 cmd 运行以下指令：
-
-```bash
-chcp 950
-
-cd "C:\Program Files (x86)\Steam\steamapps\common\SWD3\Tools"
-
-.\SS2Dtool.exe
-
-.\SS2Dtool.exe p -Ibt_level_up -Obt_level_up
-```
+开发参考：
+- https://tieba.baidu.com/p/8531675271
+- https://github.com/aabby/SWD3/wiki/%E8%BB%92%E8%BD%85%E5%8A%8D%E5%8F%83Steam%E5%B7%A5%E4%BD%9C%E5%9D%8A%E6%89%8B%E5%86%8A
