@@ -1,4 +1,4 @@
-﻿-- 觸發事件
+-- 觸發事件
 OnEvent = OnEvent or {}
 OnEventValue = OnEventValue or {}
 -- 系統啟動觸發
@@ -14,13 +14,13 @@ OnEvent.DrawMenuAfter = OnEvent.DrawMenuAfter or {}
 
 -- 系統初始化
 function OnEvent.SysInit.main()
-    log("SysInit init : main")
+    log("SysInit init : main bt")
 end
 OnEvent.SysInit[1] = function ()
-    log("SysInit init test : 1")
+    log("SysInit init test : 1 bt")
 end
 OnEvent.SysInit[2] = function ()
-    log("SysInit init test : 2")
+    log("SysInit init test : 2 bt")
 end
 
 function SysInitTEST()
@@ -29,7 +29,7 @@ function SysInitTEST()
 end
 
 OnEvent.SysInit[3] = function ()
-    log("SysInit init test : 3")
+    log("SysInit init test : 3 bt")
     local where = GetWhere()
     log("where test : "..where)
     SysInitTEST()
